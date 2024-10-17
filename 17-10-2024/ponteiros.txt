@@ -1,0 +1,21 @@
+Exemplo de Ponteiro Simples:
+Um ponteiro é uma variável que armazena o endereço de memória de outra variável.
+
+Exemplo:
+int var = 10;
+int* ptr = &var;
+
+Exemplo de Ponteiro com Array:
+Um ponteiro pode ser usado para acessar elementos de um array.
+
+Exemplo:
+int arr[3] = {10, 20, 30};
+int* ptr = arr;
+
+Exemplo de Ponteiro para Ponteiro:
+Um ponteiro para ponteiro é uma variável que armazena o endereço de outro ponteiro.
+
+Exemplo:
+int var = 10;
+int* ptr = &var;
+int** ptr2 = &ptr;
