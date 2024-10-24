@@ -15,6 +15,7 @@ class nomeClasse {
     public:
         int valorPublico;
         void funcaoPublica() {
+            cout << "esta é a minha primeira função" << endl;
     }
 }; // Fim da classe 'nomeClasse', termina com ';'
 
@@ -27,7 +28,7 @@ int main() { //Inicio do programa principal
     objetoNovo.funcaoPublica(); //Também podemos usar as funções públicas definidas dentro da classe
 
     return 0;
-    
+
     meuCarimbo();
 }
 
