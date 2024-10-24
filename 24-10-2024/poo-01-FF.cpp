@@ -26,10 +26,12 @@ int main() { //Inicio do programa principal
     objetoNovo.valorPublico = 10; //Atribui o valor 10 à variável 'valorPublico'
 
     objetoNovo.funcaoPublica(); //Também podemos usar as funções públicas definidas dentro da classe
-
-    return 0;
-
+    
     meuCarimbo();
+    return 0;
 }
+
+
+
 
 

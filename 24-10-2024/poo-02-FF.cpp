@@ -21,6 +21,7 @@ int main() {
     cin >> novoEstudante.nome >> novoEstudante.idade;
     novoEstudante.mostrar();
 
-    return 0;
     meuCarimbo();
+    return 0;
+
 }
