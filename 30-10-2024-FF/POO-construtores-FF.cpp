@@ -26,17 +26,17 @@ int main() {
     Carro carroOriginal("Cupra, porque o emponderamento sente-se no motor");
     cout << "Carro Original da Filipa: " << carroOriginal.nomeCarro << endl;
 
-    meuCarimbo();
+    mudaLinha();
 
     Carro carroCopia1("Cupra, porque o emponderamento sente-se no motor");
     cout << "Carro Cópia da Filipa: " << carroCopia1.nomeCarro << endl;
     
-    meuCarimbo();
+    mudaLinha();
 
     Carro carroCopia2("Cupra, porque o emponderamento sente-se no motor");
     cout << "E para quem não entendeu: " << carroCopia2.nomeCarro << endl;
 
-    meuCarimbo();
+    mudaLinha();
 
     return 0;
 }
