@@ -27,7 +27,7 @@ void Retangulo::desenha(char c) {
         cout << '\n';
     }
 }
-// Método para desenhar o retângulo com '*'
+// Método para desenhar o retângulo com '*', por predefinição, se o metodo for chamado sem parametro
 void Retangulo::desenha() {
     desenha('*');
 }
