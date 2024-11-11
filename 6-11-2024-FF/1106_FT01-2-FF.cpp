@@ -33,7 +33,7 @@ int main() {
     }
 
     vector <int> numbers;
-    int number;
+    int number = 0;
 
     // Ler os números do ficheiro e armazená-los no vetor
     while (inputFile >> number) {
